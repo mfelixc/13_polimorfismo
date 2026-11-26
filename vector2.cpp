@@ -31,7 +31,7 @@ class Vector {
 
 //operadores
 bool Vector::operator*(const Vector& c) const {
-     return Vector(x * c.x, y * c.y) ; 
+     return Vector(x * c.x, y * c.y); 
     }
 bool Vector::operator+=(const Vector& c) const { return x != c.x || y != c.y; }
 bool Vector::operator-=(const Vector& c) const  { return x < c.x && y < c.y; }
