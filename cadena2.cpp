@@ -86,7 +86,7 @@ int main() {
             cin.ignore(1000, '\n');
             N = 0;
         } else {
-            cin.ignore(1000, '\n');     
+            cin.ignore(1000, '\n');    
         }
 
         switch (N) {
